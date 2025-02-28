@@ -105,8 +105,9 @@ def wide_resnet(in_channels, out_channels, pretrained=False):
 
     return model
 
-
-
+# Diversity-Aware Label Distribution Learning for Microscopy Auto Focusing
+# https://ieeexplore.ieee.org/document/9361321/figures#figures
+# Reproduction?
 class zhang(nn.Module):
     def __init__(self, in_channels, out_channels, pretrained=False):
         super(zhang, self).__init__()
